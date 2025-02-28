@@ -89,7 +89,7 @@ export default function SkripsiOnline() {
       </div>
 
       {/* Content */}
-      <div className="pt-12 px-4 md:px-20 space-y-4 pb-40">
+      <div className="pt-12 px-4 md:px-20 space-y-4 pb-80">
         {sections.map((section) => (
           <div key={section.id} id={section.id} className="py-2">
             <h2 className={`text-2xl font-semibold text-black mb-2 p-4 rounded-lg shadow-lg transition-all duration-300 sticky top-16 z-40 ${activeSection === section.id ? 'bg-blue-300' : 'bg-gray-300'}`}>{section.title}</h2>
